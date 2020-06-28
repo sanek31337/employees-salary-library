@@ -1,0 +1,29 @@
+{
+    "name": "atrunov/employees-salary",
+    "type": "library",
+    "description": "The library for calculation the salary of employees",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Trunov",
+            "email": "sanek31337@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3@dev"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    }
+}
